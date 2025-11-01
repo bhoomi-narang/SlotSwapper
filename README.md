@@ -107,7 +107,7 @@ cd client
 npm run dev
 ```
 
-The backend runs on `http://localhost:5000` and the frontend on `http://localhost:3000`.
+The backend runs on `http://localhost:5000` and the frontend on `http://localhost:5173`.
 
 ## Project Structure
 
