@@ -78,9 +78,8 @@ NODE_ENV=development
 PORT=5000
 API_PREFIX=/api/v1
 
-MONGO_URI=mongodb+srv://bhoominarang17547_db_user:SBXH1XfIcqFVfBJO@cluster0.9uklwe6.mongodb.net/?appName=Cluster0/SlotSwapper
-
-JWT_SECRET=my_secret_12345
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/...
+JWT_SECRET=your_super_secret_jwt_key
 JWT_EXPIRE=7d
 
 CORS_ORIGIN=http://localhost:5173
