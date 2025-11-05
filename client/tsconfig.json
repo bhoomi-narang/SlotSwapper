@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "types": ["node"],
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
     "jsx": "react-jsx",
     "composite": true,
     "skipLibCheck": true,
@@ -9,3 +12,4 @@
   },
   "include": ["vite.config.ts"]
 }
+
