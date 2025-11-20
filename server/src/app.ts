@@ -50,6 +50,7 @@ app.get('/health', (_, res) => {
 });
 
 const apiPrefix = process.env.API_PREFIX || '/api/v1';
+console.log("API prefix =", apiPrefix); 
 app.use(apiPrefix, routes);
 
 app.use(notFoundHandler);
